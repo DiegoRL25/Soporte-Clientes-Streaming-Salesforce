@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "IntegrationProcedure_DashboardData_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "GetClienteDashboardData",
+    "OmniProcessElement": [
+        "IntegrationProcedure_DashboardData_Element_ExtractClienteData.json",
+        "IntegrationProcedure_DashboardData_Element_ReturnClienteData.json"
+    ],
+    "OmniProcessKey": "IntegrationProcedure_DashboardData",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "IntegrationProcedure_DashboardData_PropertySetConfig.json",
+    "SubType": "DashboardData",
+    "Type": "IntegrationProcedure",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/IntegrationProcedure/DashboardData/Procedure"
+}

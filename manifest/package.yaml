@@ -1,0 +1,15 @@
+projectPath: ./vlocity
+continueAfterError: True
+autoUpdateSettings: True
+maxDepth: 0
+
+manifest: 
+- DataRaptor/DR_GetClienteYCasos
+- IntegrationProcedure/IntegrationProcedure_DashboardData
+
+
+overrideSettings:
+dataPacks:
+catalog:
+product2:
+maxDeploy:

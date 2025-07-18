@@ -1,0 +1,25 @@
+Org: diego@pwcorg.com
+Version: 1.17.13
+Node: v22.17.0
+PackageVersion: !<tag:yaml.org,2002:js/undefined> ''
+Namespace: omnistudio
+Job: VDX
+Action: Export
+ProjectPath: ./vlocity
+TotalTime: 0m 10s
+Count:
+  Success:
+    IntegrationProcedure: 1
+    DataRaptor: 1
+Errors: []
+Status:
+  Success:
+    IntegrationProcedure:
+      - IntegrationProcedure_DashboardData
+    DataRaptor:
+      - DR_GetClienteYCasos
+StatusCount:
+  Remaining: 0
+  Success: 2
+  Error: 0
+id: !<tag:yaml.org,2002:js/undefined> ''

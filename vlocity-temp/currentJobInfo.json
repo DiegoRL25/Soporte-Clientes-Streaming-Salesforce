@@ -1,0 +1,457 @@
+{
+    "projectPath": "./vlocity",
+    "continueAfterError": true,
+    "autoUpdateSettings": true,
+    "maxDepth": 0,
+    "manifest": [
+        "DataRaptor/DR_GetClienteYCasos",
+        "IntegrationProcedure/IntegrationProcedure_DashboardData"
+    ],
+    "overrideSettings": null,
+    "dataPacks": null,
+    "catalog": null,
+    "product2": null,
+    "maxDeploy": null,
+    "jobName": "manifest/package.yaml",
+    "job": "manifest/package.yaml",
+    "sfdx.username": "diego@pwcorg.com",
+    "tempFolder": "./vlocity-temp/",
+    "source": "local",
+    "target": "local",
+    "sfdxUsername": "diego@pwcorg.com",
+    "passedInOptionsOverride": {
+        "job": "manifest/package.yaml",
+        "sfdx.username": "diego@pwcorg.com"
+    },
+    "jobAction": "Export",
+    "expansionPath": ".",
+    "buildFile": "AllDataPacks.json",
+    "postStepApex": {
+        "Deploy": {
+            "Product2": {
+                "apexClass": "EPCProductJSONUpdate.cls",
+                "namespace": "vlocity_cmt"
+            }
+        }
+    },
+    "delete": true,
+    "activate": true,
+    "compileOnBuild": true,
+    "defaultMaxParallel": 20,
+    "defaultMinToWaitForLWCOmniScript": 10,
+    "defaultMinToWaitForLWCClassicCards": 10,
+    "defaultMinToWaitForLWCFlexCards": 5,
+    "defaultLWCPullTimeInSeconds": 5,
+    "loginTimeoutForLoginLWC": 300000,
+    "puppeteerHeadless": true,
+    "lookForParentLayoutsForlWCCards": true,
+    "exportPacksMaxSize": 5,
+    "useAllRelationships": false,
+    "ignoreAllErrors": false,
+    "addSourceKeys": false,
+    "maximumDeployCount": 10,
+    "manifestOnly": false,
+    "supportHeadersOnly": true,
+    "allowHeadersPartial": true,
+    "supportForceDeploy": true,
+    "strict": false,
+    "cleanTestData": true,
+    "autoFixPicklists": true,
+    "reactivateOmniScriptsWhenEmbeddedTemplateFound": false,
+    "autoFixDeployErrors": {
+        "AttributeCategoryDisplaySequence": true
+    },
+    "tests": [
+        "Local",
+        "Org"
+    ],
+    "npmRepository": "https://repo.vlocity.com/repository/vlocity-public/",
+    "startTime": 1752865923247,
+    "originalAction": "Export",
+    "logName": "manifest/package-yaml-2025-07-18T19-12-10-381Z-Export.yaml",
+    "alreadyExportedKeys": [
+        "077f5478d9aa7ff43edd59aaecd0a818",
+        "c785e98bc88c7b7fa56e9424ad628154"
+    ],
+    "allParents": [
+        "DataRaptor/DR_GetClienteYCasos",
+        "IntegrationProcedure/IntegrationProcedure_DashboardData"
+    ],
+    "errors": [],
+    "report": [],
+    "postDeployResults": [],
+    "preDeployDataSummary": [],
+    "refreshVlocityBase": [],
+    "expandedDataPacks": [
+        "c785e98bc88c7b7fa56e9424ad628154",
+        "077f5478d9aa7ff43edd59aaecd0a818",
+        "c785e98bc88c7b7fa56e9424ad628154",
+        "077f5478d9aa7ff43edd59aaecd0a818"
+    ],
+    "currentStatus": {
+        "077f5478d9aa7ff43edd59aaecd0a818": "Success",
+        "c785e98bc88c7b7fa56e9424ad628154": "Success"
+    },
+    "currentErrors": {},
+    "parallelStatus": {},
+    "sourceKeysByParent": {
+        "OmniDataTransform/DR_GetClienteYCasos": [
+            "DataRaptor/DR_GetClienteYCasos",
+            "c785e98bc88c7b7fa56e9424ad628154"
+        ],
+        "OmniProcess/IntegrationProcedure/DashboardData/Procedure": [
+            "077f5478d9aa7ff43edd59aaecd0a818"
+        ],
+        "OmniProcessElement/OmniProcess/IntegrationProcedure/DashboardData/Procedure/ExtractClienteData": [
+            "077f5478d9aa7ff43edd59aaecd0a818"
+        ],
+        "VlocityRecordSourceKey:0jNbm0000004HiDEAU": [],
+        "OmniProcessElement/OmniProcess/IntegrationProcedure/DashboardData/Procedure/ReturnClienteData": [
+            "077f5478d9aa7ff43edd59aaecd0a818"
+        ]
+    },
+    "alreadyExportedIdsByType": {
+        "DataRaptor": [
+            "0jIbm0000003D8nEAE",
+            "0jIbm0000003D8n",
+            "DR_GetClienteYCasos"
+        ],
+        "IntegrationProcedure": [
+            "0jNbm0000004HiDEAU",
+            "0jNbm0000004HiD"
+        ]
+    },
+    "alreadyErroredIdsByType": {
+        "DataRaptor": [],
+        "IntegrationProcedure": []
+    },
+    "alreadyRetriedIdsByType": {},
+    "keyToType": {},
+    "vlocityKeysToNewNamesMap": {
+        "VlocityRecordSourceKey:0jNbm0000004HiDEAU": "OmniProcess/IntegrationProcedure/DashboardData/Procedure",
+        "VlocityRecordSourceKey:0jIbm0000003D8nEAE": "OmniDataTransform/DR_GetClienteYCasos",
+        "VlocityRecordSourceKey:0kdbm0000008YSjAAM": "OmniDataTransformItem/Generated-1692282548",
+        "VlocityRecordSourceKey:0kdbm0000008fHJAAY": "OmniDataTransformItem/Generated-847589443",
+        "VlocityRecordSourceKey:0kdbm0000008fKXAAY": "OmniDataTransformItem/Generated1724146614",
+        "VlocityRecordSourceKey:0kdbm0000008fsPAAQ": "OmniDataTransformItem/Generated2108209676",
+        "VlocityRecordSourceKey:0kdbm0000008aW9AAI": "OmniDataTransformItem/Generated-1550294536",
+        "VlocityRecordSourceKey:0kdbm0000008aUXAAY": "OmniDataTransformItem/Generated-316451704",
+        "VlocityRecordSourceKey:0kdbm0000008aXlAAI": "OmniDataTransformItem/Generated1027949187",
+        "VlocityRecordSourceKey:0kdbm0000008YcPAAU": "OmniDataTransformItem/Generated2002487741",
+        "VlocityRecordSourceKey:0kdbm0000008YZBAA2": "OmniDataTransformItem/Generated-294196538",
+        "VlocityRecordSourceKey:0kdbm0000008aZNAAY": "OmniDataTransformItem/Generated-438877849",
+        "VlocityRecordSourceKey:0kdbm0000008YULAA2": "OmniDataTransformItem/Generated1995212729",
+        "VlocityRecordSourceKey:0kdbm0000008YVxAAM": "OmniDataTransformItem/Generated-495778666",
+        "VlocityRecordSourceKey:0kdbm0000008YXZAA2": "OmniDataTransformItem/Generated1652568634",
+        "c785e98bc88c7b7fa56e9424ad628154": "DataRaptor/DR_GetClienteYCasos",
+        "DataRaptor/DR_GetClienteYCasos": "DataRaptor/DR_GetClienteYCasos",
+        "VlocityRecordSourceKey:0kEbm0000009P41EAE": "OmniProcessElement/OmniProcess/IntegrationProcedure/DashboardData/Procedure/ExtractClienteData",
+        "VlocityRecordSourceKey:0kEbm0000009P5dEAE": "OmniProcessElement/OmniProcess/IntegrationProcedure/DashboardData/Procedure/ReturnClienteData",
+        "077f5478d9aa7ff43edd59aaecd0a818": "IntegrationProcedure/IntegrationProcedure_DashboardData",
+        "IntegrationProcedure/IntegrationProcedure_DashboardData": "IntegrationProcedure/IntegrationProcedure_DashboardData"
+    },
+    "vlocityRecordSourceKeyMap": {
+        "VlocityRecordSourceKey:0jNbm0000004HiDEAU": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0jNbm0000004HiDEAU",
+            "VlocityRecordSourceKeyNew": "OmniProcess/IntegrationProcedure/DashboardData/Procedure",
+            "Type": "IntegrationProcedure",
+            "SubType": "DashboardData",
+            "Language": "Procedure"
+        },
+        "0jNbm0000004HiDEAU": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0jNbm0000004HiDEAU",
+            "VlocityRecordSourceKeyNew": "OmniProcess/IntegrationProcedure/DashboardData/Procedure",
+            "Type": "IntegrationProcedure",
+            "SubType": "DashboardData",
+            "Language": "Procedure"
+        },
+        "VlocityRecordSourceKey:0jIbm0000003D8nEAE": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0jIbm0000003D8nEAE",
+            "VlocityRecordSourceKeyNew": "OmniDataTransform/DR_GetClienteYCasos",
+            "Name": "DR_GetClienteYCasos"
+        },
+        "0jIbm0000003D8nEAE": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0jIbm0000003D8nEAE",
+            "VlocityRecordSourceKeyNew": "OmniDataTransform/DR_GetClienteYCasos",
+            "Name": "DR_GetClienteYCasos"
+        },
+        "VlocityRecordSourceKey:0kdbm0000008YSjAAM": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008YSjAAM",
+            "VlocityRecordSourceKeyNew": "OmniDataTransformItem/Generated-1692282548"
+        },
+        "0kdbm0000008YSjAAM": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008YSjAAM",
+            "VlocityRecordSourceKeyNew": "OmniDataTransformItem/Generated-1692282548"
+        },
+        "VlocityRecordSourceKey:0kdbm0000008fHJAAY": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008fHJAAY",
+            "VlocityRecordSourceKeyNew": "OmniDataTransformItem/Generated-847589443"
+        },
+        "0kdbm0000008fHJAAY": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008fHJAAY",
+            "VlocityRecordSourceKeyNew": "OmniDataTransformItem/Generated-847589443"
+        },
+        "VlocityRecordSourceKey:0kdbm0000008fKXAAY": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008fKXAAY",
+            "VlocityRecordSourceKeyNew": "OmniDataTransformItem/Generated1724146614"
+        },
+        "0kdbm0000008fKXAAY": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008fKXAAY",
+            "VlocityRecordSourceKeyNew": "OmniDataTransformItem/Generated1724146614"
+        },
+        "VlocityRecordSourceKey:0kdbm0000008fsPAAQ": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008fsPAAQ",
+            "VlocityRecordSourceKeyNew": "OmniDataTransformItem/Generated2108209676"
+        },
+        "0kdbm0000008fsPAAQ": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008fsPAAQ",
+            "VlocityRecordSourceKeyNew": "OmniDataTransformItem/Generated2108209676"
+        },
+        "VlocityRecordSourceKey:0kdbm0000008aW9AAI": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008aW9AAI",
+            "VlocityRecordSourceKeyNew": "OmniDataTransformItem/Generated-1550294536"
+        },
+        "0kdbm0000008aW9AAI": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008aW9AAI",
+            "VlocityRecordSourceKeyNew": "OmniDataTransformItem/Generated-1550294536"
+        },
+        "VlocityRecordSourceKey:0kdbm0000008aUXAAY": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008aUXAAY",
+            "VlocityRecordSourceKeyNew": "OmniDataTransformItem/Generated-316451704"
+        },
+        "0kdbm0000008aUXAAY": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008aUXAAY",
+            "VlocityRecordSourceKeyNew": "OmniDataTransformItem/Generated-316451704"
+        },
+        "VlocityRecordSourceKey:0kdbm0000008aXlAAI": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008aXlAAI",
+            "VlocityRecordSourceKeyNew": "OmniDataTransformItem/Generated1027949187"
+        },
+        "0kdbm0000008aXlAAI": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008aXlAAI",
+            "VlocityRecordSourceKeyNew": "OmniDataTransformItem/Generated1027949187"
+        },
+        "VlocityRecordSourceKey:0kdbm0000008YcPAAU": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008YcPAAU",
+            "VlocityRecordSourceKeyNew": "OmniDataTransformItem/Generated2002487741"
+        },
+        "0kdbm0000008YcPAAU": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008YcPAAU",
+            "VlocityRecordSourceKeyNew": "OmniDataTransformItem/Generated2002487741"
+        },
+        "VlocityRecordSourceKey:0kdbm0000008YZBAA2": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008YZBAA2",
+            "VlocityRecordSourceKeyNew": "OmniDataTransformItem/Generated-294196538"
+        },
+        "0kdbm0000008YZBAA2": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008YZBAA2",
+            "VlocityRecordSourceKeyNew": "OmniDataTransformItem/Generated-294196538"
+        },
+        "VlocityRecordSourceKey:0kdbm0000008aZNAAY": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008aZNAAY",
+            "VlocityRecordSourceKeyNew": "OmniDataTransformItem/Generated-438877849"
+        },
+        "0kdbm0000008aZNAAY": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008aZNAAY",
+            "VlocityRecordSourceKeyNew": "OmniDataTransformItem/Generated-438877849"
+        },
+        "VlocityRecordSourceKey:0kdbm0000008YULAA2": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008YULAA2",
+            "VlocityRecordSourceKeyNew": "OmniDataTransformItem/Generated1995212729"
+        },
+        "0kdbm0000008YULAA2": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008YULAA2",
+            "VlocityRecordSourceKeyNew": "OmniDataTransformItem/Generated1995212729"
+        },
+        "VlocityRecordSourceKey:0kdbm0000008YVxAAM": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008YVxAAM",
+            "VlocityRecordSourceKeyNew": "OmniDataTransformItem/Generated-495778666"
+        },
+        "0kdbm0000008YVxAAM": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008YVxAAM",
+            "VlocityRecordSourceKeyNew": "OmniDataTransformItem/Generated-495778666"
+        },
+        "VlocityRecordSourceKey:0kdbm0000008YXZAA2": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008YXZAA2",
+            "VlocityRecordSourceKeyNew": "OmniDataTransformItem/Generated1652568634"
+        },
+        "0kdbm0000008YXZAA2": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008YXZAA2",
+            "VlocityRecordSourceKeyNew": "OmniDataTransformItem/Generated1652568634"
+        },
+        "VlocityRecordSourceKey:0kEbm0000009P41EAE": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kEbm0000009P41EAE",
+            "VlocityRecordSourceKeyNew": "OmniProcessElement/OmniProcess/IntegrationProcedure/DashboardData/Procedure/ExtractClienteData",
+            "OmniProcessId": {
+                "VlocityRecordSObjectType": "OmniProcess",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:0jNbm0000004HiDEAU",
+                "Name": "GetClienteDashboardData"
+            },
+            "Name": "ExtractClienteData"
+        },
+        "0kEbm0000009P41EAE": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kEbm0000009P41EAE",
+            "VlocityRecordSourceKeyNew": "OmniProcessElement/OmniProcess/IntegrationProcedure/DashboardData/Procedure/ExtractClienteData",
+            "OmniProcessId": {
+                "VlocityRecordSObjectType": "OmniProcess",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:0jNbm0000004HiDEAU",
+                "Name": "GetClienteDashboardData"
+            },
+            "Name": "ExtractClienteData"
+        },
+        "VlocityRecordSourceKey:0kEbm0000009P5dEAE": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kEbm0000009P5dEAE",
+            "VlocityRecordSourceKeyNew": "OmniProcessElement/OmniProcess/IntegrationProcedure/DashboardData/Procedure/ReturnClienteData",
+            "OmniProcessId": {
+                "VlocityRecordSObjectType": "OmniProcess",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:0jNbm0000004HiDEAU",
+                "Name": "GetClienteDashboardData"
+            },
+            "Name": "ReturnClienteData"
+        },
+        "0kEbm0000009P5dEAE": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kEbm0000009P5dEAE",
+            "VlocityRecordSourceKeyNew": "OmniProcessElement/OmniProcess/IntegrationProcedure/DashboardData/Procedure/ReturnClienteData",
+            "OmniProcessId": {
+                "VlocityRecordSObjectType": "OmniProcess",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "VlocityRecordSourceKey:0jNbm0000004HiDEAU",
+                "Name": "GetClienteDashboardData"
+            },
+            "Name": "ReturnClienteData"
+        }
+    },
+    "VlocityDataPackIds": {
+        "0ncbm0000002PVNAA2": "Complete",
+        "0ncbm0000002PWzAAM": "Complete"
+    },
+    "generatedKeysToNames": {},
+    "sourceKeyToRecordId": {},
+    "sourceKeyToMatchingKeysData": {},
+    "dataPackKeyToPrimarySourceKey": {},
+    "diffType": {},
+    "sourceHashCodes": {},
+    "targetHashCodes": {},
+    "fullManifest": {
+        "DataRaptor": {
+            "0jIbm0000003D8nEAE": {
+                "Id": "0jIbm0000003D8nEAE",
+                "Name": "DR_GetClienteYCasos",
+                "CreatedDate": "2025-07-07T20:20:11.000+0000",
+                "LastModifiedDate": "2025-07-18T18:27:26.000+0000",
+                "VlocityDataPackType": "DataRaptor",
+                "VlocityRecordSObjectType": "OmniDataTransform",
+                "CreatedByName": "Diego Rendon",
+                "LastModifiedByName": "Diego Rendon",
+                "VlocityDataPackDisplayLabel": "DR_GetClienteYCasos",
+                "orgUrl": "/one/one.app#/alohaRedirect/apex/omnistudio__drmapper?id=0jIbm0000003D8nEAE"
+            }
+        },
+        "IntegrationProcedure": {
+            "0jNbm0000004HiDEAU": {
+                "Id": "0jNbm0000004HiDEAU",
+                "Type": "IntegrationProcedure",
+                "SubType": "DashboardData",
+                "CreatedDate": "2025-07-17T16:16:27.000+0000",
+                "LastModifiedDate": "2025-07-18T18:26:46.000+0000",
+                "VlocityDataPackType": "IntegrationProcedure",
+                "VlocityRecordSObjectType": "OmniProcess",
+                "CreatedByName": "Diego Rendon",
+                "LastModifiedByName": "Diego Rendon",
+                "VlocityDataPackDisplayLabel": "IntegrationProcedure_DashboardData",
+                "orgUrl": "/one/one.app#/alohaRedirect/apex/omnistudio__integrationproceduredesigner?id=0jNbm0000004HiDEAU"
+            }
+        }
+    },
+    "manifestFound": {},
+    "dataPackDisplayLabels": {},
+    "allDataSummary": {
+        "c785e98bc88c7b7fa56e9424ad628154": {
+            "VlocityDataPackDisplayLabel": "DR_GetClienteYCasos",
+            "VlocityDataPackType": "DataRaptor"
+        },
+        "077f5478d9aa7ff43edd59aaecd0a818": {
+            "VlocityDataPackDisplayLabel": "IntegrationProcedure_DashboardData (IntegrationProcedure/DashboardData/Procedure)",
+            "VlocityDataPackType": "IntegrationProcedure"
+        }
+    },
+    "pendingFromManifest": {},
+    "keysToDirectories": {},
+    "VlocityDataPackKeyToUrlMapping": {},
+    "relationshipKeyToChildKeys": {},
+    "dataPackLabelsByDir": {},
+    "upgradeDataPackFields": false,
+    "specificManifestKeys": [
+        "DataRaptor/DR_GetClienteYCasos",
+        "IntegrationProcedure/IntegrationProcedure_DashboardData"
+    ],
+    "queries": [
+        {
+            "VlocityDataPackType": "DataRaptor",
+            "query": "Select Id, Name from %vlocity_namespace%__DRBundle__c WHERE %vlocity_namespace%__Type__c != 'Migration'"
+        },
+        {
+            "VlocityDataPackType": "IntegrationProcedure",
+            "query": "Select Id, %vlocity_namespace%__Type__c, %vlocity_namespace%__SubType__c from %vlocity_namespace%__OmniScript__c WHERE %vlocity_namespace%__IsActive__c = true AND %vlocity_namespace%__IsProcedure__c = true"
+        },
+        {
+            "VlocityDataPackType": "IntegrationProcedure",
+            "query": "Select Id, %vlocity_namespace%__Type__c, %vlocity_namespace%__SubType__c, %vlocity_namespace%__Version__c from %vlocity_namespace%__OmniScript__c WHERE %vlocity_namespace%__IsProcedure__c = true",
+            "versionCompare": true
+        }
+    ],
+    "supportParallel": true,
+    "specificManifestObjects": null,
+    "shouldSendUpdates": true,
+    "initialized": true,
+    "toExportGroups": [
+        [
+            {
+                "Id": "0jIbm0000003D8nEAE",
+                "Name": "DR_GetClienteYCasos",
+                "CreatedDate": "2025-07-07T20:20:11.000+0000",
+                "LastModifiedDate": "2025-07-18T18:27:26.000+0000",
+                "VlocityDataPackType": "DataRaptor",
+                "VlocityRecordSObjectType": "OmniDataTransform",
+                "CreatedByName": "Diego Rendon",
+                "LastModifiedByName": "Diego Rendon",
+                "VlocityDataPackDisplayLabel": "DR_GetClienteYCasos",
+                "orgUrl": "/one/one.app#/alohaRedirect/apex/omnistudio__drmapper?id=0jIbm0000003D8nEAE"
+            }
+        ],
+        [
+            {
+                "Id": "0jNbm0000004HiDEAU",
+                "Type": "IntegrationProcedure",
+                "SubType": "DashboardData",
+                "CreatedDate": "2025-07-17T16:16:27.000+0000",
+                "LastModifiedDate": "2025-07-18T18:26:46.000+0000",
+                "VlocityDataPackType": "IntegrationProcedure",
+                "VlocityRecordSObjectType": "OmniProcess",
+                "CreatedByName": "Diego Rendon",
+                "LastModifiedByName": "Diego Rendon",
+                "VlocityDataPackDisplayLabel": "IntegrationProcedure_DashboardData",
+                "orgUrl": "/one/one.app#/alohaRedirect/apex/omnistudio__integrationproceduredesigner?id=0jNbm0000004HiDEAU"
+            }
+        ]
+    ],
+    "exportRemaining": 0,
+    "elapsedTime": "0m 10s",
+    "records": [
+        {
+            "VlocityDataPackKey": "IntegrationProcedure/IntegrationProcedure_DashboardData",
+            "VlocityDataPackDisplayLabel": "IntegrationProcedure_DashboardData (IntegrationProcedure/DashboardData/Procedure)",
+            "VlocityDataPackType": "IntegrationProcedure",
+            "VlocityDataPackStatus": "Success"
+        },
+        {
+            "VlocityDataPackKey": "DataRaptor/DR_GetClienteYCasos",
+            "VlocityDataPackDisplayLabel": "DR_GetClienteYCasos",
+            "VlocityDataPackType": "DataRaptor",
+            "VlocityDataPackStatus": "Success"
+        }
+    ]
+}
