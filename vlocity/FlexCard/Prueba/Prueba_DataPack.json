@@ -1,0 +1,40 @@
+{
+    "AuthorName": "PwC",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "AccountId": "001bm000011autjAAA"
+                },
+                "ipMethod": "IntegrationProcedure_DashboardData",
+                "resultVar": "",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "",
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "Name": "Prueba",
+    "Namespace": "",
+    "OmniUiCardKey": "Prueba/PwC/1.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "Prueba.json",
+    "SampleDataSourceResponse": "[{\"Account.Cases.Subject\":\"No puedo acceder a mi cuenta\",\"Account.Cases.CreatedDate\":\"2025-07-09T19:35:59.000Z\",\"Account.Cases.Status\":\"New\",\"Account.Name\":\"GenePoint\",\"Account.Cases.Priority\":\"High\",\"Account.Cases.Categoria__c\":\"Problema técnico\",\"Account.Contacts.Email\":\"efrank@genepoint.com\"},{\"Account.Cases.Subject\":\"Cobro duplicado en mi tarjeta\",\"Account.Cases.CreatedDate\":\"2025-07-09T19:35:59.000Z\",\"Account.Cases.Status\":\"In Progress\",\"Account.Name\":\"GenePoint\",\"Account.Cases.Priority\":\"Medium\",\"Account.Cases.Categoria__c\":\"Facturación\",\"Account.Contacts.Email\":\"efrank@genepoint.com\"},{\"Account.Cases.Subject\":\"Otra consulta general\",\"Account.Cases.CreatedDate\":\"2025-07-09T19:35:59.000Z\",\"Account.Cases.Status\":\"New\",\"Account.Name\":\"GenePoint\",\"Account.Cases.Priority\":\"Low\",\"Account.Cases.Categoria__c\":\"Otro\",\"Account.Contacts.Email\":\"efrank@genepoint.com\"},{\"Account.Cases.Subject\":\"Maintenance guidelines for generator unclear\",\"Account.Cases.Priority\":\"Low\",\"Account.Cases.CreatedDate\":\"2025-07-07T15:23:25.000Z\",\"Account.Cases.Status\":\"New\",\"Account.Contacts.Email\":\"efrank@genepoint.com\",\"Account.Name\":\"GenePoint\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/Prueba"
+}

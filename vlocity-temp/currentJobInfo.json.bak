@@ -5,7 +5,8 @@
     "maxDepth": 0,
     "manifest": [
         "DataRaptor/DR_GetClienteYCasos",
-        "IntegrationProcedure/IntegrationProcedure_DashboardData"
+        "IntegrationProcedure/IntegrationProcedure_DashboardData",
+        "FlexCard/Prueba"
     ],
     "overrideSettings": null,
     "dataPacks": null,
@@ -66,16 +67,18 @@
         "Org"
     ],
     "npmRepository": "https://repo.vlocity.com/repository/vlocity-public/",
-    "startTime": 1752865923247,
+    "startTime": 1753207714898,
     "originalAction": "Export",
-    "logName": "manifest/package-yaml-2025-07-18T19-12-10-381Z-Export.yaml",
+    "logName": "manifest/package-yaml-2025-07-22T18-08-40-796Z-Export.yaml",
     "alreadyExportedKeys": [
+        "6fb1ff64052b9d38b453d6af6dea0cc4",
         "077f5478d9aa7ff43edd59aaecd0a818",
-        "c785e98bc88c7b7fa56e9424ad628154"
+        "47cea251a66d9960584e195682aa3123"
     ],
     "allParents": [
         "DataRaptor/DR_GetClienteYCasos",
-        "IntegrationProcedure/IntegrationProcedure_DashboardData"
+        "IntegrationProcedure/IntegrationProcedure_DashboardData",
+        "FlexCard/Prueba"
     ],
     "errors": [],
     "report": [],
@@ -83,38 +86,51 @@
     "preDeployDataSummary": [],
     "refreshVlocityBase": [],
     "expandedDataPacks": [
-        "c785e98bc88c7b7fa56e9424ad628154",
+        "47cea251a66d9960584e195682aa3123",
+        "6fb1ff64052b9d38b453d6af6dea0cc4",
         "077f5478d9aa7ff43edd59aaecd0a818",
-        "c785e98bc88c7b7fa56e9424ad628154",
+        "47cea251a66d9960584e195682aa3123",
+        "6fb1ff64052b9d38b453d6af6dea0cc4",
         "077f5478d9aa7ff43edd59aaecd0a818"
     ],
     "currentStatus": {
+        "6fb1ff64052b9d38b453d6af6dea0cc4": "Success",
         "077f5478d9aa7ff43edd59aaecd0a818": "Success",
-        "c785e98bc88c7b7fa56e9424ad628154": "Success"
+        "47cea251a66d9960584e195682aa3123": "Success"
     },
     "currentErrors": {},
     "parallelStatus": {},
     "sourceKeysByParent": {
         "OmniDataTransform/DR_GetClienteYCasos": [
             "DataRaptor/DR_GetClienteYCasos",
-            "c785e98bc88c7b7fa56e9424ad628154"
+            "6fb1ff64052b9d38b453d6af6dea0cc4"
         ],
         "OmniProcess/IntegrationProcedure/DashboardData/Procedure": [
+            "IntegrationProcedure/IntegrationProcedure_DashboardData",
             "077f5478d9aa7ff43edd59aaecd0a818"
         ],
         "OmniProcessElement/OmniProcess/IntegrationProcedure/DashboardData/Procedure/ExtractClienteData": [
+            "IntegrationProcedure/IntegrationProcedure_DashboardData",
             "077f5478d9aa7ff43edd59aaecd0a818"
         ],
-        "VlocityRecordSourceKey:0jNbm0000004HiDEAU": [],
         "OmniProcessElement/OmniProcess/IntegrationProcedure/DashboardData/Procedure/ReturnClienteData": [
+            "IntegrationProcedure/IntegrationProcedure_DashboardData",
             "077f5478d9aa7ff43edd59aaecd0a818"
-        ]
+        ],
+        "OmniUiCard/Prueba": [
+            "47cea251a66d9960584e195682aa3123"
+        ],
+        "VlocityRecordSourceKey:0jNbm0000004HiDEAU": []
     },
     "alreadyExportedIdsByType": {
         "DataRaptor": [
             "0jIbm0000003D8nEAE",
             "0jIbm0000003D8n",
             "DR_GetClienteYCasos"
+        ],
+        "FlexCard": [
+            "0kobm0000002turAAA",
+            "0kobm0000002tur"
         ],
         "IntegrationProcedure": [
             "0jNbm0000004HiDEAU",
@@ -123,13 +139,17 @@
     },
     "alreadyErroredIdsByType": {
         "DataRaptor": [],
+        "FlexCard": [],
         "IntegrationProcedure": []
     },
     "alreadyRetriedIdsByType": {},
     "keyToType": {},
     "vlocityKeysToNewNamesMap": {
-        "VlocityRecordSourceKey:0jNbm0000004HiDEAU": "OmniProcess/IntegrationProcedure/DashboardData/Procedure",
         "VlocityRecordSourceKey:0jIbm0000003D8nEAE": "OmniDataTransform/DR_GetClienteYCasos",
+        "VlocityRecordSourceKey:0jNbm0000004HiDEAU": "OmniProcess/IntegrationProcedure/DashboardData/Procedure",
+        "VlocityRecordSourceKey:0kobm0000002turAAA": "OmniUiCard/Prueba",
+        "47cea251a66d9960584e195682aa3123": "FlexCard/Prueba",
+        "FlexCard/Prueba": "FlexCard/Prueba",
         "VlocityRecordSourceKey:0kdbm0000008YSjAAM": "OmniDataTransformItem/Generated-1692282548",
         "VlocityRecordSourceKey:0kdbm0000008fHJAAY": "OmniDataTransformItem/Generated-847589443",
         "VlocityRecordSourceKey:0kdbm0000008fKXAAY": "OmniDataTransformItem/Generated1724146614",
@@ -143,7 +163,7 @@
         "VlocityRecordSourceKey:0kdbm0000008YULAA2": "OmniDataTransformItem/Generated1995212729",
         "VlocityRecordSourceKey:0kdbm0000008YVxAAM": "OmniDataTransformItem/Generated-495778666",
         "VlocityRecordSourceKey:0kdbm0000008YXZAA2": "OmniDataTransformItem/Generated1652568634",
-        "c785e98bc88c7b7fa56e9424ad628154": "DataRaptor/DR_GetClienteYCasos",
+        "6fb1ff64052b9d38b453d6af6dea0cc4": "DataRaptor/DR_GetClienteYCasos",
         "DataRaptor/DR_GetClienteYCasos": "DataRaptor/DR_GetClienteYCasos",
         "VlocityRecordSourceKey:0kEbm0000009P41EAE": "OmniProcessElement/OmniProcess/IntegrationProcedure/DashboardData/Procedure/ExtractClienteData",
         "VlocityRecordSourceKey:0kEbm0000009P5dEAE": "OmniProcessElement/OmniProcess/IntegrationProcedure/DashboardData/Procedure/ReturnClienteData",
@@ -151,6 +171,16 @@
         "IntegrationProcedure/IntegrationProcedure_DashboardData": "IntegrationProcedure/IntegrationProcedure_DashboardData"
     },
     "vlocityRecordSourceKeyMap": {
+        "VlocityRecordSourceKey:0jIbm0000003D8nEAE": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0jIbm0000003D8nEAE",
+            "VlocityRecordSourceKeyNew": "OmniDataTransform/DR_GetClienteYCasos",
+            "Name": "DR_GetClienteYCasos"
+        },
+        "0jIbm0000003D8nEAE": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0jIbm0000003D8nEAE",
+            "VlocityRecordSourceKeyNew": "OmniDataTransform/DR_GetClienteYCasos",
+            "Name": "DR_GetClienteYCasos"
+        },
         "VlocityRecordSourceKey:0jNbm0000004HiDEAU": {
             "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0jNbm0000004HiDEAU",
             "VlocityRecordSourceKeyNew": "OmniProcess/IntegrationProcedure/DashboardData/Procedure",
@@ -165,15 +195,15 @@
             "SubType": "DashboardData",
             "Language": "Procedure"
         },
-        "VlocityRecordSourceKey:0jIbm0000003D8nEAE": {
-            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0jIbm0000003D8nEAE",
-            "VlocityRecordSourceKeyNew": "OmniDataTransform/DR_GetClienteYCasos",
-            "Name": "DR_GetClienteYCasos"
+        "VlocityRecordSourceKey:0kobm0000002turAAA": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kobm0000002turAAA",
+            "VlocityRecordSourceKeyNew": "OmniUiCard/Prueba",
+            "Name": "Prueba"
         },
-        "0jIbm0000003D8nEAE": {
-            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0jIbm0000003D8nEAE",
-            "VlocityRecordSourceKeyNew": "OmniDataTransform/DR_GetClienteYCasos",
-            "Name": "DR_GetClienteYCasos"
+        "0kobm0000002turAAA": {
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kobm0000002turAAA",
+            "VlocityRecordSourceKeyNew": "OmniUiCard/Prueba",
+            "Name": "Prueba"
         },
         "VlocityRecordSourceKey:0kdbm0000008YSjAAM": {
             "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:0kdbm0000008YSjAAM",
@@ -325,8 +355,9 @@
         }
     },
     "VlocityDataPackIds": {
-        "0ncbm0000002PVNAA2": "Complete",
-        "0ncbm0000002PWzAAM": "Complete"
+        "0ncbm0000002PrxAAE": "Complete",
+        "0ncbm0000002PqLAAU": "Complete",
+        "0ncbm0000002PtZAAU": "Complete"
     },
     "generatedKeysToNames": {},
     "sourceKeyToRecordId": {},
@@ -341,13 +372,27 @@
                 "Id": "0jIbm0000003D8nEAE",
                 "Name": "DR_GetClienteYCasos",
                 "CreatedDate": "2025-07-07T20:20:11.000+0000",
-                "LastModifiedDate": "2025-07-18T18:27:26.000+0000",
+                "LastModifiedDate": "2025-07-22T16:03:28.000+0000",
                 "VlocityDataPackType": "DataRaptor",
                 "VlocityRecordSObjectType": "OmniDataTransform",
                 "CreatedByName": "Diego Rendon",
                 "LastModifiedByName": "Diego Rendon",
                 "VlocityDataPackDisplayLabel": "DR_GetClienteYCasos",
                 "orgUrl": "/one/one.app#/alohaRedirect/apex/omnistudio__drmapper?id=0jIbm0000003D8nEAE"
+            }
+        },
+        "FlexCard": {
+            "0kobm0000002turAAA": {
+                "Id": "0kobm0000002turAAA",
+                "Name": "Prueba",
+                "CreatedDate": "2025-07-18T18:31:04.000+0000",
+                "LastModifiedDate": "2025-07-22T17:57:23.000+0000",
+                "VlocityDataPackType": "FlexCard",
+                "VlocityRecordSObjectType": "OmniUiCard",
+                "CreatedByName": "Diego Rendon",
+                "LastModifiedByName": "Diego Rendon",
+                "VlocityDataPackDisplayLabel": "Prueba",
+                "orgUrl": "/0kobm0000002turAAA"
             }
         },
         "IntegrationProcedure": {
@@ -369,7 +414,11 @@
     "manifestFound": {},
     "dataPackDisplayLabels": {},
     "allDataSummary": {
-        "c785e98bc88c7b7fa56e9424ad628154": {
+        "47cea251a66d9960584e195682aa3123": {
+            "VlocityDataPackDisplayLabel": "Prueba",
+            "VlocityDataPackType": "FlexCard"
+        },
+        "6fb1ff64052b9d38b453d6af6dea0cc4": {
             "VlocityDataPackDisplayLabel": "DR_GetClienteYCasos",
             "VlocityDataPackType": "DataRaptor"
         },
@@ -386,12 +435,18 @@
     "upgradeDataPackFields": false,
     "specificManifestKeys": [
         "DataRaptor/DR_GetClienteYCasos",
-        "IntegrationProcedure/IntegrationProcedure_DashboardData"
+        "IntegrationProcedure/IntegrationProcedure_DashboardData",
+        "FlexCard/Prueba"
     ],
     "queries": [
         {
             "VlocityDataPackType": "DataRaptor",
             "query": "Select Id, Name from %vlocity_namespace%__DRBundle__c WHERE %vlocity_namespace%__Type__c != 'Migration'"
+        },
+        {
+            "VlocityDataPackType": "FlexCard",
+            "query": "SELECT Id, Name FROM OmniUiCard WHERE IsActive = true",
+            "standardOnly": true
         },
         {
             "VlocityDataPackType": "IntegrationProcedure",
@@ -413,13 +468,27 @@
                 "Id": "0jIbm0000003D8nEAE",
                 "Name": "DR_GetClienteYCasos",
                 "CreatedDate": "2025-07-07T20:20:11.000+0000",
-                "LastModifiedDate": "2025-07-18T18:27:26.000+0000",
+                "LastModifiedDate": "2025-07-22T16:03:28.000+0000",
                 "VlocityDataPackType": "DataRaptor",
                 "VlocityRecordSObjectType": "OmniDataTransform",
                 "CreatedByName": "Diego Rendon",
                 "LastModifiedByName": "Diego Rendon",
                 "VlocityDataPackDisplayLabel": "DR_GetClienteYCasos",
                 "orgUrl": "/one/one.app#/alohaRedirect/apex/omnistudio__drmapper?id=0jIbm0000003D8nEAE"
+            }
+        ],
+        [
+            {
+                "Id": "0kobm0000002turAAA",
+                "Name": "Prueba",
+                "CreatedDate": "2025-07-18T18:31:04.000+0000",
+                "LastModifiedDate": "2025-07-22T17:57:23.000+0000",
+                "VlocityDataPackType": "FlexCard",
+                "VlocityRecordSObjectType": "OmniUiCard",
+                "CreatedByName": "Diego Rendon",
+                "LastModifiedByName": "Diego Rendon",
+                "VlocityDataPackDisplayLabel": "Prueba",
+                "orgUrl": "/0kobm0000002turAAA"
             }
         ],
         [
@@ -439,8 +508,14 @@
         ]
     ],
     "exportRemaining": 0,
-    "elapsedTime": "0m 10s",
+    "elapsedTime": "0m 8s",
     "records": [
+        {
+            "VlocityDataPackKey": "DataRaptor/DR_GetClienteYCasos",
+            "VlocityDataPackDisplayLabel": "DR_GetClienteYCasos",
+            "VlocityDataPackType": "DataRaptor",
+            "VlocityDataPackStatus": "Success"
+        },
         {
             "VlocityDataPackKey": "IntegrationProcedure/IntegrationProcedure_DashboardData",
             "VlocityDataPackDisplayLabel": "IntegrationProcedure_DashboardData (IntegrationProcedure/DashboardData/Procedure)",
@@ -448,9 +523,9 @@
             "VlocityDataPackStatus": "Success"
         },
         {
-            "VlocityDataPackKey": "DataRaptor/DR_GetClienteYCasos",
-            "VlocityDataPackDisplayLabel": "DR_GetClienteYCasos",
-            "VlocityDataPackType": "DataRaptor",
+            "VlocityDataPackKey": "FlexCard/Prueba",
+            "VlocityDataPackDisplayLabel": "Prueba",
+            "VlocityDataPackType": "FlexCard",
             "VlocityDataPackStatus": "Success"
         }
     ]
