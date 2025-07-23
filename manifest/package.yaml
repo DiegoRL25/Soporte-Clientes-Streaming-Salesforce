@@ -7,6 +7,7 @@ manifest:
 - DataRaptor/DR_GetClienteYCasos
 - IntegrationProcedure/IntegrationProcedure_DashboardData
 - FlexCard/Prueba
+- OmniScript/CrearTicketSoporte
 
 overrideSettings:
 dataPacks:

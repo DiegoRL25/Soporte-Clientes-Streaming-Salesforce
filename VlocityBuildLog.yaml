@@ -6,21 +6,21 @@ Namespace: omnistudio
 Job: VDX
 Action: Export
 ProjectPath: ./vlocity
-TotalTime: 0m 8s
+TotalTime: 0m 7s
 Count:
   Success:
+    FlexCard: 1
     DataRaptor: 1
     IntegrationProcedure: 1
-    FlexCard: 1
 Errors: []
 Status:
   Success:
+    FlexCard:
+      - Prueba
     DataRaptor:
       - DR_GetClienteYCasos
     IntegrationProcedure:
       - IntegrationProcedure_DashboardData
-    FlexCard:
-      - Prueba
 StatusCount:
   Remaining: 0
   Success: 3
